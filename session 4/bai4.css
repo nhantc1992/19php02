@@ -1,0 +1,150 @@
+#container {
+	width: 100%;
+	border: 1px solid green;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid green;
+}
+#logo{
+	height: 100px;
+	width: 33.6%;
+	border-right: 1px solid green;
+	float : left;
+	text-align: center;
+	line-height: 100px;
+}
+#slogan{
+	height: 100px;
+	width: 66%;
+	border-bottom : 1px solid green;
+	float : left;
+	text-align: center;
+	line-height: 100px;
+}
+#slide{
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid green;
+	text-align: center;
+	line-height: 100px;
+}
+.new, .ads{
+	height: 100px;
+	width: 100%;
+	border-bottom: 1px solid green;
+}
+#news1{
+	height : 100px;
+	width: 33%;
+	border-right: 1px solid green;
+	float : left;
+	text-align: center;
+	line-height: 100px;
+}
+#news2{
+	height : 100px;
+	width: 33%;
+	float : left;
+	text-align: center;
+	line-height: 100px;
+}
+#news3{
+	height : 100px;
+	width: 33.6%;
+	float : left;
+	border-left: 1px solid green;
+	text-align: center;
+	line-height: 100px;
+}
+#ads1{
+	height : 100px;
+	width: 33%;
+	border-right: 1px solid green;
+	float : left;
+	text-align: center;
+	line-height: 100px;
+}
+#ads2{
+	height : 100px;
+	width: 66.5%;
+	border-bottom: 1px solid green;
+	float : left;
+	text-align: center;
+	line-height: 100px;
+}
+#content{
+	height: 200px;
+	width: 100%;
+	border-bottom: 1px solid green;
+	text-align: center;
+	line-height: 200px;
+}
+footer{
+	height: 100px;
+	width: 100%;
+}
+#footer1{
+	height: 100px;
+	width : 50%;
+	border-right: 1px solid green;
+	float : left;
+	text-align: center;
+	line-height: 100px;
+}
+#footer2{
+	height: 100px;
+	width : 49.7%;
+	float : left;
+	text-align: center;
+	line-height: 100px;
+}
+@media screen and (max-width: 768px) {
+	#news1{
+		width: 49.1%;
+	}
+	#news2{
+		width: 50.6%;
+	}
+	#news3{
+		width: 100%;
+		border: none;
+	}
+	#ads1{
+		width: 100%;
+		border-bottom: 1px solid green;
+	}
+	#ads2{
+		display: none;
+	}
+	#content{
+		line-height: 100px;
+	}
+}
+@media screen and (max-width: 480px){
+
+	#news1{
+		width: 100%;
+	}
+	#news2{
+		width: 100%;
+	}
+	#news3{
+		display: none;
+	}
+	footer{
+		height: 200px;
+	}
+	#footer1{
+		width: 100%;
+		border-bottom: 1px solid green;
+	}
+	#footer2{
+		width: 100%;
+	}
+}
+
+
+
