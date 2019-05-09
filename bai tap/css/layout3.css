@@ -1,0 +1,144 @@
+#container{
+	width: 800px;
+	margin: auto;
+}
+header{
+	width: 800px;
+	height: 50px;
+}
+#top1{
+	width: 385px;
+	height: 50px;
+	background-color: orange;
+	float: left;
+	margin-right: 30px;
+}
+#top2{
+	width: 385px;
+	height: 50px;
+	background-color: orange;
+	float: left;
+}
+#content{
+	width: 800px;
+	height: 200px;
+	background-color: yellow;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+section{
+	width: 800px;
+	height: 140px;
+}
+#section1{
+	width: 246px;
+	height: 140px;
+	background-color: blue;
+	float: left;
+	margin-right: 32px;
+}
+#section2{
+	width: 246px;
+	height: 140px;
+	background-color: blue;
+	float: left;
+}
+#section3{
+	width: 246px;
+	height: 140px;
+	background-color: blue;
+	float: right;
+}
+footer{
+	width: 800px;
+	height: 120px;
+	margin-top: 30px;
+}
+#footer1{
+	width: 177px;
+	height: 120px;
+	background-color: #E6DADA;
+	float: left;
+	margin-right: 30px;
+}
+#footer2{
+	width: 177px;
+	height: 120px;
+	background-color: #E6DADA;
+	float: left;
+	margin-right: 30px;
+}
+#footer3{
+	width: 177px;
+	height: 120px;
+	background-color: #E6DADA;
+	float: left;
+}
+#footer4{
+	width: 177px;
+	height: 120px;
+	background-color: #E6DADA;
+	float: right;
+}
+@media screen and (max-width: 768px){
+	header{
+		height: 100px;
+	}
+	#top1{
+		width: 95%;
+		height: 50px;
+		margin-bottom: 8px;
+	}
+	#top2{
+		width: 95%;
+		height: 50px;
+	}
+	#content{
+		width: 95%;
+		height: 170px;
+	}
+	section{
+		height: 240px;
+	}
+	#section1{
+		width: 95%;
+		height: 80px;
+		margin-bottom: 8px;	
+	}
+	#section2{
+		width: 95%;
+		height: 80px;
+		margin-bottom: 8px;	
+	}
+	#section3{
+		width: 100%;
+		height: 80px;
+	}
+	footer{
+		height: 240px;
+		margin-top: 40px;
+	}
+	#footer1{
+		width: 370px;
+		height: 80px;
+		float:left;
+		margin-right: 8px;
+	}
+	#footer2{
+		width: 370px;
+		height: 80px;
+		float:left;
+		margin-bottom: 8px;
+	}
+	#footer3{
+		width: 370px;
+		height: 80px;
+		float:left;
+		margin-right: 8px;
+	}
+	#footer4{
+		width: 370px;
+		height: 80px;
+		float:left;
+	}
+}
